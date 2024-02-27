@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sports News</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+  <!-- START HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <button class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a class="logo" href="#">
+          <img class="logo-img" src="images/logo.svg" alt="logo">
+        </a>
+        <ul class="menu">
+          <li class="menu__list">
+            <a class="menu__link menu__link--active" href="#">
+              Home
+            </a>
+          </li>
+          <li class="menu__list">
+            <a class="menu__link" href="#">
+              Category
+            </a>
+          </li>
+          <li class="menu__list">
+            <a class="menu__link" href="#">
+              Trending News
+            </a>
+          </li>
+          <li class="menu__list">
+            <a class="menu__link" href="#">
+              Recent News
+            </a>
+          </li>
+          <li class="menu__list">
+            <a class="menu__link" href="#">
+              Clubs Ranking
+            </a>
+          </li>
+          <li class="menu__list">
+            <a class="menu__link" href="#">
+              Sports Article
+            </a>
+          </li>
+        </ul>
+        <button class="search">
+          <img class="search__img" src="images/search.svg" alt="search">
+          <p class="search__text">Search</p>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- START SECTION TOP -->
+  <section class="top">
+    <div class="container">
+      <div class="top__inner">
+        <div class="top__inner-item">
+          <img class="top__bg" src="images/ball.png">
+          <img class="top__inner-img" src="images/top.png" alt="top">
+          <h1 class="top__inner-title">Top scorer to the final match</h1>
+          <div class="top__inner-box">
+            <p class="top__inner-text">The EuroLeague Finals Top Scorer is the individual award for the player that
+              gained the highest points in
+              the EuroLeague Finals</p>
+            <a class="top__inner-link" href="#">continue reading</a>
+          </div>
+        </div>
+        <aside class="aside aside-top">
+          <p class="top__inner-day">Today</p>
+          <div class="top__blog">
+            <div class="top__blog-item">
+              <img class="top__blog-img" src="images/blog-1.jpg" alt="blog-1">
+              <div class="top__blog-inner">
+                <div class="top__blog-post">
+                  <div class="top__blog-info">
+                    <p class="top__blog-author">Race98</p>
+                    <span> — </span>
+                    <p class="top__blog-date"> 03 June 2023</p>
+                  </div>
+                  <p class="top__blog-title">Ethiopian runners took the top four spots.</p>
+                </div>
+              </div>
+            </div>
+            <div class="top__blog-item">
+              <img class="top__blog-img" src="images/blog-2.jpg" alt="blog-2">
+              <div class="top__blog-inner">
+                <div class="top__blog-post">
+                  <div class="top__blog-info">
+                    <p class="top__blog-author">INDYCAR</p>
+                    <span> — </span>
+                    <p class="top__blog-date">03 June 2023</p>
+                  </div>
+                  <p class="top__blog-title">IndyCar Detroit: Dixon quickest in second practice.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION TOP -->
+
+  <!-- START SECTION CATEGORY -->
+  <section class="category">
+    <div class="container">
+      <h2 class="category__title title">Category</h2>
+      <div class="category__inner">
+        <div class="category__item">
+          <div class="category__box-text">
+            <p class="category__text">
+              Football
+            </p>
+          </div>
+          <img class="category__image" src="images/football.jpg" alt="football">
+        </div>
+        <div class="category__item">
+          <img class="category__image" src="images/bascket.jpg" alt="bascket">
+          <div class="category__box-text">
+            <p class="category__text">
+              bascket ball
+            </p>
+          </div>
+        </div>
+        <div class="category__item">
+          <div class="category__box-text">
+            <p class="category__text">
+              car sport
+            </p>
+          </div>
+          <img class="category__image" src="images/car.jpg" alt="car">
+        </div>
+        <div class="category__item">
+          <img class="category__image" src="images/tenis.jpg" alt="tenis">
+          <div class="category__box-text">
+            <p class="category__text">
+              Table Tennis
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION CATEGORY -->
+
+  <!-- START SECTION NEWS -->
+  <section class="news">
+    <div class="container">
+      <div class="news__inner">
+        <div class="news__block news__block--left">
+          <h4 class="news__title title">Trending News</h4>
+          <div class="news__items">
+            <div class="news__item">
+              <div class="news__item-image">
+                <img class="news__item-img" src="images/news-1.jpg" alt="first-image">
+              </div>
+              <div class="news__item-box">
+                <p class="news__info"><a href="#">Race98</a> – <a href="#">03 June 2023</a></p>
+                <h5 class="news__info-title"><a href="#">6-Year-Old Horse Dies at Belmont Park After Race Injury</a>
+                </h5>
+                <p class="news__info-descr">NEW YORK — A 6-year-old horse died after being injured in a
+                  race at Belmont Park ahead of next week’s</p>
+              </div>
+            </div>
+            <div class="news__item">
+              <div class="news__item-image">
+                <img class="news__item-img" src="images/news-2.jpg" alt="second-image">
+              </div>
+              <div class="news__item-box">
+                <p class="news__info"><a href="#">Jony.Ls</a> – <a href="#">03 June 2023</a></p>
+                <h5 class="news__info-title"><a href="#">Savilia Blunk Embraces Longer Season with World Cup</a></h5>
+                <p class="news__info-descr">Last year, Savilia Blunk took a more conservative
+                  approach to her first season as an Elite Class athlete, skipping some</p>
+              </div>
+            </div>
+            <div class="news__item">
+              <div class="news__item-image">
+                <img class="news__item-img" src="images/news-3.jpg" alt="third-image">
+              </div>
+              <div class="news__item-box">
+                <p class="news__info"><a href="#">King.F</a> – <a href="#">03 June 2023</a></p>
+                <h5 class="news__info-title"><a href="#">Ryan Garcia is fighting again, this time on social media</a>
+                </h5>
+                <p class="news__info-descr">Boxing star Ryan Garcia and his promoter, Hall of Fame
+                  fighter Oscar De La Hoya, reignited their war of words via Twitter on</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news__block news__block--right">
+          <div class="news__block-inner news__block-inner--right">
+            <div class="block-shadow news__block-shadow"></div>
+            <img class="news__block-img news__block-img--right" src="images/news-4.jpg" alt="big-images">
+            <p class="category-title news__category"><a href="#">Cycling</a></p>
+            <div class="news__block-info">
+              <p class="news__info news__info--right"><a href="#">Debits</a> – <a href="#">03 June 2023</a></p>
+              <h5 class="news__info-title news__info-title--right"><a href="#">DISCOVER THE MEMBER BENEFITS OF USA
+                  CYCLING!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION NEWS -->
+
+  <!-- START SECTION SLIDER -->
+  <section class="big-slider">
+    <div class="container">
+      <div class="big-slider__inner swiper">
+        <div class="big-slider__inner-items swiper-wrapper">
+          <div class="big-slider__item swiper-slide">
+            <div class="block-shadow big-slider__block-shadow"></div>
+            <img class="big-slider-img" src="images/big_slide-1.jpg" alt="slide-1">
+            <h5 class="category-title big-slider__category"><a href="#">Football</a></h5>
+            <div class="big-slider__block-info">
+              <h5 class="big-slider__info-title"><a href="#">Agence France-Presse</a> — <a href="#">04 June 2023</a>
+              </h5>
+              <h6 class="big-slider__info-subtitle">
+                <a href="#">Lionel Messi Leaving Ligue 1 Team Paris Saint-Germain, Club Confirms</a>
+              </h6>
+              <div class="big-slider__info-desc">The EuroLeague Finals Top Scorer is the individual award for the player
+                that
+                gained the highest points in the EuroLeague Finals</div>
+            </div>
+          </div>
+          <div class="big-slider__item swiper-slide">
+            <div class="block-shadow big-slider__block-shadow"></div>
+            <img class="big-slider-img" src="images/big_slide-2.jpg" alt="slide-2">
+            <h5 class="category-title big-slider__category"><a href="#">Running</a></h5>
+            <div class="big-slider__block-info">
+              <h5 class="big-slider__info-title"><a href="#">Runner's World</a> — <a href="#">17 February 2024</a></h5>
+              <h6 class="big-slider__info-subtitle">
+                <a href="#">Eliud Kipchoge Breaks Marathon Record in Berlin</a>
+              </h6>
+              <div class="big-slider__info-desc">Renowned Kenyan athlete Eliud Kipchoge has once again made history by
+                setting a new world record in the marathon event. Competing in the Berlin Marathon, Kipchoge crossed the
+                finish line with an impressive time, solidifying his place as one of the greatest long-distance runners
+                of all time.</div>
+            </div>
+          </div>
+          <div class="big-slider__item swiper-slide">
+            <div class="block-shadow big-slider__block-shadow"></div>
+            <img class="big-slider-img" src="images/big_slide-3.jpg" alt="slide-3">
+            <h5 class="category-title big-slider__category"><a href="#">Yoga</a></h5>
+            <div class="big-slider__block-info">
+              <h5 class="big-slider__info-title"><a href="#">Yoga Journal</a> — <a href="#">13 February 2024</a></h5>
+              <h6 class="big-slider__info-subtitle">
+                <a href="#">Discover the Benefits of Daily Meditation Practice</a>
+              </h6>
+              <div class="big-slider__info-desc">Dive into the transformative power of daily meditation with Yoga
+                Journal.
+                Explore how incorporating a regular meditation practice into your routine can enhance mindfulness,
+                reduce stress, and promote overall well-being. Join us on a journey of self-discovery and inner peace
+                through the practice of yoga and meditation.</div>
+            </div>
+          </div>
+          <div class="big-slider__item swiper-slide">
+            <div class="block-shadow big-slider__block-shadow"></div>
+            <img class="big-slider-img" src="images/big_slide-4.jpg" alt="slide-4">
+            <h5 class="category-title big-slider__category"><a href="#">Swimming</a></h5>
+            <div class="big-slider__block-info">
+              <h5 class="big-slider__info-title"><a href="#">Swim Magazine</a> — <a href="#">11 January 2024</a></h5>
+              <h6 class="big-slider__info-subtitle">
+                <a href="#">Olympic Swimmer Breaks World Record in Freestyle</a>
+              </h6>
+              <div class="big-slider__info-desc">Dive into the latest swimming news with Swim Magazine. Learn about the
+                incredible achievements of Olympic swimmers as they push the boundaries of human performance. Discover
+                the thrill of competitive swimming and follow the journey of athletes who inspire us with their
+                dedication and passion for the sport.</div>
+            </div>
+          </div>
+        </div>
+        <div class="big-slider__inner-button">
+          <div class="slider__button big-slider__button">
+            <button class="slider-arrow slider-arrow--left big-slider__arrow--left"></button>
+            <ul class="slider__pagination big-slider__pagination">
+              <!-- <li class="slider__pagination-item big-slider__pagination-item">1</li>
+              <li class="slider__pagination-item big-slider__pagination-item">2</li>
+              <li class="slider__pagination-item big-slider__pagination-item">3</li>
+              <li class="slider__pagination-item big-slider__pagination-item">4</li> -->
+            </ul>
+            <button class="slider-arrow slider-arrow--right big-slider__arrow--right"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION SLIDER -->
+
+  <!-- START SECTION CLUBS-NEWS -->
+  <section class="clubs-news">
+    <div class="container">
+      <div class="clubs-news__inner">
+        <div class="clubs-news__news">
+          <h3 class="title clubs-news__title">
+            Recent News
+          </h3>
+          <div class="clubs-news__news-box">
+            <div class="news-box__image">
+              <div class="trend__shadow-noise"></div>
+              <div class="trend__shadow"></div>
+              <img class="news-box__img" src="images/recen-img__1.jpg" alt="recent image">
+              <div class="news-box__info">
+                <p class="news-box__subtitle">Day 5 Highlights</p>
+                <h5 class="news-box__title">Baku 2023 World Taekwondo Championships</h5>
+              </div>
+            </div>
+            <div class="clubs-news__trend">
+              <div class="club-news__trend-items">
+                <div class="club-news__trend-item">
+                  <img class="clubs-news__trend-img" src="images/trend-1.jpg" alt="trend-1">
+                  <div class="trend-item__info">
+                    <p class="trend-item__subtitle">
+                      #Pollar. 87 - 12 July 2023
+                    </p>
+                    <h4 class="trend-item__title">
+                      <a href="">Baku 2023 Taekwondo Championships</a>
+                    </h4>
+                  </div>
+                </div>
+                <div class="club-news__trend-item">
+                  <img class="clubs-news__trend-img" src="images/trend-2.jpg" alt="trend-2">
+                  <div class="trend-item__info">
+                    <p class="trend-item__subtitle">
+                      #Goft. Toni - 20 July 2023
+                    </p>
+                    <h4 class="trend-item__title">
+                      <a href="">Open Championship Royal Liverpool Golf</a>
+                    </h4>
+                  </div>
+                </div>
+                <div class="club-news__trend-item">
+                  <img class="clubs-news__trend-img" src="images/trend-3.jpg" alt="trend-3">
+                  <div class="trend-item__info">
+                    <p class="trend-item__subtitle">
+                      <a href="#">#Cricket.</a> <a href="#">Toni</a> - <a href="#">27 July 2023</a>
+                    </p>
+                    <h4 class="trend-item__title">
+                      <a href="#">Ireland Tour of England Test 2023</a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="club-news__link-box">
+                <a class="clubs-news__trend-link" href="#">
+                  More
+                  <img class="clubs-news__arrow-img" src="images/small-arrow.svg" alt="arrow">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clubs-news__clubs">
+          <h3 class="title clubs-news__title">
+            Clubs Ranking
+          </h3>
+          <div class="clubs-news__clubs-inner">
+            <div class="table__wrapper">
+              <table class="table">
+                <thead class="table__head">
+                  <tr>
+                    <th>Club</th>
+                    <th>GP</th>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>L</th>
+                    <th>F</th>
+                    <th>A</th>
+                    <th>GD</th>
+                  </tr>
+                </thead>
+                <tbody class="table__body">
+                  <tr class="table__row">
+                    <td>1
+                      <img src="images/club-1.png" alt="">
+                      Manchester City
+                    </td>
+                    <td>38</td>
+                    <td>29</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>99</td>
+                    <td>26</td>
+                    <td>73</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td>2
+                      <img src="images/club-2.png" alt="">
+                      Liverpool
+                    </td>
+                    <td>38</td>
+                    <td>28</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>94</td>
+                    <td>26</td>
+                    <td>68</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td>3
+                      <img src="images/club-3.png" alt="">
+                      Chelsea
+                    </td>
+                    <td>38</td>
+                    <td>21</td>
+                    <td>11</td>
+                    <td>6</td>
+                    <td>76</td>
+                    <td>33</td>
+                    <td>43</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td>4
+                      <img src="images/club-4.png" alt="">
+                      Tottenham Hotspur
+                    </td>
+                    <td>38</td>
+                    <td>22</td>
+                    <td>5</td>
+                    <td>11</td>
+                    <td>69</td>
+                    <td>40</td>
+                    <td>29</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td>5
+                      <img src="images/club-5.png" alt="">
+                      Arsenal
+                    </td>
+                    <td>38</td>
+                    <td>22</td>
+                    <td>3</td>
+                    <td>13</td>
+                    <td>61</td>
+                    <td>48</td>
+                    <td>13</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td>6
+                      <img src="images/club-6.png" alt="">
+                      Manchester United
+                    </td>
+                    <td>38</td>
+                    <td>16</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>57</td>
+                    <td>57</td>
+                    <td>0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION CLUBS-NEWS -->
+
+  <!-- START SECTION ARTICLE -->
+  <section class="article">
+    <div class="container">
+      <h4 class="article__title title">Sports Article</h4>
+      <div class="article__inner swiper">
+        <div class="article__slider swiper-wrapper">
+          <div class="article__slider-item swiper-slide">
+            <p class="article__slider-category category-title"><a href="#">Basketball</a></p>
+            <div class="article__slider-image">
+              <img class="artcile__slider-img" src="images/article-1.jpg" alt="article-1_image">
+            </div>
+            <div class="article__author">
+              <div class="article__author-image">
+                <img class="article__author-img" src="images/author-1.jpg" alt="author-1_image">
+              </div>
+              <p class="article_author-name">
+                <a href="#">Jake Will.</a>
+              </p>
+            </div>
+            <div class="article__slider-info">
+              <p class="article__slider-date"><a href="#">04 June 2023</a></p>
+              <h3 class="article__slider-title">
+                <a href="#">5 Exercises Basketball Players Should Be Using To Develop Strength</a>
+              </h3>
+              <p class="article__slider-descr">This article was written by Jake Willhoite from Healthlisted.com Strength
+                in basketball isn’t all about a massive body mass or ripped muscles.</p>
+            </div>
+          </div>
+          <div class="article__slider-item swiper-slide">
+            <p class="article__slider-category category-title"><a href="#">Hockey</a></p>
+            <div class="article__slider-image">
+              <img class="artcile__slider-img" src="images/article-2.jpg" alt="article-2_image">
+            </div>
+            <div class="article__author">
+              <div class="article__author-image">
+                <img class="article__author-img" src="images/author-2.jpg" alt="author-2_image">
+              </div>
+              <p class="article_author-name">
+                <a href="#">Foxi.zacon</a>
+              </p>
+            </div>
+            <div class="article__slider-info">
+              <p class="article__slider-date"><a href="#">03 June 2023</a></p>
+              <h3 class="article__slider-title">
+                <a href="#">Golden Knights out to fulfill owner's quest to win Stanley Cup in 6th year</a>
+              </h3>
+              <p class="article__slider-descr">The Vegas Golden Knights will play the Florida Panthers in the Stanley
+                Cup Final beginning Saturday.</p>
+            </div>
+          </div>
+          <div class="article__slider-item swiper-slide">
+            <p class="article__slider-category category-title"><a href="#">Volleyball</a></p>
+            <div class="article__slider-image">
+              <img class="artcile__slider-img" src="images/article-5.jpg" alt="article-5_image">
+            </div>
+            <div class="article__author">
+              <div class="article__author-image">
+                <img class="article__author-img" src="images/author-5.jpg" alt="author-5_image">
+              </div>
+              <p class="article_author-name">
+                <a href="#">Courtney Cook</a>
+              </p>
+            </div>
+            <div class="article__slider-info">
+              <p class="article__slider-date"><a href="#">23 Jule 2023</a></p>
+              <h3 class="article__slider-title">
+                <a href="#">Empowering Volleyball: Emerging Trends and Opportunities</a>
+              </h3>
+              <p class="article__slider-descr">The International Volleyball Federation is actively championing the
+                growth volleyball, embracing new trends and providing opportunities for advancement in the
+                sport.</p>
+            </div>
+          </div>
+          <div class="article__slider-item swiper-slide">
+            <p class="article__slider-category category-title"><a href="#">Badminton</a></p>
+            <div class="article__slider-image">
+              <img class="artcile__slider-img" src="images/article-3.jpg" alt="article-3_image">
+            </div>
+            <div class="article__author">
+              <div class="article__author-image">
+                <img class="article__author-img" src="images/author-3.jpg" alt="author-3_image">
+              </div>
+              <p class="article_author-name">
+                <a href="#">Bong Lozada</a>
+              </p>
+            </div>
+            <div class="article__slider-info">
+              <p class="article__slider-date"><a href="#">01 June 2023</a></p>
+              <h3 class="article__slider-title">
+                <a href="#">‘Outdoor’ Badminton Gets Support From Local Federation</a>
+              </h3>
+              <p class="article__slider-descr">The Badminton World Federation is developing Air Badminton and the
+                country’s governing body, Philippine Badminton Association.</p>
+            </div>
+          </div>
+          <div class="article__slider-item swiper-slide">
+            <p class="article__slider-category category-title"><a href="#">Skiing</a></p>
+            <div class="article__slider-image">
+              <img class="artcile__slider-img" src="images/article-4.jpg" alt="article-4_image">
+            </div>
+            <div class="article__author">
+              <div class="article__author-image">
+                <img class="article__author-img" src="images/author-4.jpg" alt="author-4_image">
+              </div>
+              <p class="article_author-name">
+                <a href="#">Kate Winston</a>
+              </p>
+            </div>
+            <div class="article__slider-info">
+              <p class="article__slider-date"><a href="#">25 January 2024</a></p>
+              <h3 class="article__slider-title">
+                <a href="#">Advancing Women's Skiing: New Trends and Perspectives</a>
+              </h3>
+              <p class="article__slider-descr">The International Ski Federation is actively supporting and developing
+                the women's segment of competitions, recognizing the importance of equal opportunities in sports.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="article__slider-button">
+        <button class="slider-arrow article__slider-arrow slider-arrow--left article-slider__perv"></button>
+        <button class="slider-arrow article__slider-arrow slider-arrow--right article-slider__next"></button>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION ARTICLE -->
+
+  <!-- START FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__form">
+          <h2 class="footer__title">
+            Newsletter Subscription
+          </h2>
+          <form class="form" action="">
+            <input class="form__input" type="text" placeholder="shovon.khan0099@gmail.com">
+            <button class="form__btn" type="submit">
+              <img class="form__img" src="images/send-arrow.svg" alt="send arrow">
+            </button>
+          </form>
+        </div>
+        <div class="footer__slider swiper">
+          <div class="footer__slider-items swiper-wrapper">
+            <div class="footer__slider-item swiper-slide">
+              <div class="footer__slider-image">
+                <img class="footer__slider-img" src="images/fot-slide-1.png" alt="slide 1">
+              </div>
+            </div>
+            <div class="footer__slider-item swiper-slide">
+              <div class="footer__slider-image">
+                <img class="footer__slider-img" src="images/fot-slide-2.png" alt="slide 2">
+              </div>
+            </div>
+            <div class="footer__slider-item swiper-slide">
+              <div class="footer__slider-image">
+                <img class="footer__slider-img" src="images/fot-slide-3.png" alt="slide 3">
+              </div>
+            </div>
+            <div class="footer__slider-item swiper-slide">
+              <div class="footer__slider-image">
+                <img class="footer__slider-img" src="images/fot-slide-4.png" alt="slide 4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__navigation">
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <img calss="footer__social-img" src="images/facebook.svg" alt="meta">
+          </a>
+          <a href="#" class="footer__social-link">
+            <img calss="footer__social-img" src="images/instagram.svg" alt="instagram">
+          </a>
+          <a href="#" class="footer__social-link">
+            <img calss="footer__social-img" src="images/twitter.svg" alt="twitter">
+          </a>
+        </div>
+        <div class="slider__button footer-slider__button">
+          <button class="slider-arrow slider-arrow--left footer__slider-prev"></button>
+          <ul class="slider__pagination footer-slider__pagination">
+          </ul>
+          <button class="slider-arrow slider-arrow--right footer__slider-next"></button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
